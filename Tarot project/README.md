@@ -54,11 +54,11 @@ Before running the project, make sure you have:
 
 Open a terminal and run:
 
-```bash
-git clone YOUR_REPOSITORY_URL
-```
+>>>bash
 
-Replace `YOUR_REPOSITORY_URL` with your GitHub repository's URL.
+git clone "https://github.com/kanadotreader42/git-test/tree/main/Tarot%20project"
+
+<<<
 
 Alternatively, download the repository as a ZIP file and extract it.
 
@@ -72,9 +72,11 @@ Open VS Code and select:
 
 Open the VS Code terminal and run:
 
-```powershell
+>>>powershell
+
 py -m pip install -r requirements.txt
-```
+
+<<<
 
 This installs Pillow, which the program uses to process images.
 
@@ -86,9 +88,9 @@ Place your JPG or JPEG images inside the `tarot card` folder.
 
 In the VS Code terminal, execute:
 
-```powershell
+>>>powershell
 py main.py
-```
+<<<
 
 A window should appear displaying three randomly selected tarot cards.
 
@@ -104,9 +106,9 @@ The project uses Pillow for image processing.
 
 The `requirements.txt` file contains:
 
-```text
+>>>text
 Pillow
-```
+<<<
 
 Other modules used by the program, such as `random`, `pathlib`, and `tkinter`, are part of Python's standard library in typical Windows installations.
 
@@ -138,4 +140,4 @@ Possible improvements include:
 
 ## 📄 License
 
-This project is available for learning and personal use. Add a license file if you want to specify the permissions others have to use, modify, or distribute your code.
+This project is available for learning and personal use.
