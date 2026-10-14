@@ -56,7 +56,7 @@ Open a terminal and run:
 
 >>>bash
 
-git clone "https://github.com/kanadotreader42/git-test/tree/main/Tarot%20project"
+git clone https://github.com/kanadotreader42/git-test.git
 
 <<<
 
